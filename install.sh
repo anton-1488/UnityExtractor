@@ -24,17 +24,8 @@ pip install tqdm colorama
 
 echo "✅ Зависимости установлены!"
 
-# Делаем скрипты исполняемыми
-chmod +x apk_extractor.py
-chmod +x gui.py
-chmod +x install.sh
+chmod +x main.py
+chmod +x build.sh
 
 echo ""
 echo "🎉 Установка завершена!"
-echo ""
-echo "Использование:"
-echo "  Консольная версия: python3 apk_extractor.py ваш_файл.apk"
-echo "  Графическая версия: python3 gui.py"
-echo ""
-echo "Для извлечения всех ресурсов из APK:"
-echo "  python3 apk_extractor.py путь/к/файлу.apk -o папка_для_результатов"

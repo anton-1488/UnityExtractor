@@ -17,6 +17,6 @@ cd apk-extractor-pro
 # Установите зависимости
 chmod +x install.sh
 ./install.sh
-
+```
 
 КОД НАПИСАН DeepSeek И ПРОТЕСТИРОВАН МНОЙ.
